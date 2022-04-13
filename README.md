@@ -22,7 +22,6 @@ JD2-pyprocgame is new software for the [Judge Dredd](https://www.ipdb.org/machin
     del jd2_media_a.tar.gz  
     del jd2_media_b.tar.gz
     ```
-
 ## Authors
 
 JD2-pyprocgame is a collaboration of many people.
