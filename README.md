@@ -14,8 +14,8 @@ copy jd2_media_b.tar.gz C:\P-ROC\JD2-pyprocgame
 tar xf jd2_media_a.tar.gz  
 tar xf jd2_media_b.tar.gz
 
-- Optionally delete the media archives to save space.
-del jd2_media_a.tar.gz
+- Optionally delete the media archives to save space.  
+del jd2_media_a.tar.gz  
 del jd2_media_b.tar.gz
 
 ## Authors
