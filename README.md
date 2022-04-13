@@ -10,7 +10,8 @@ JD2-pyprocgame is new software for the [Judge Dredd](https://www.ipdb.org/machin
 copy jd2_media_a.tar.gz C:\P-ROC\JD2-pyprocgame  
 copy jd2_media_b.tar.gz C:\P-ROC\JD2-pyprocgame
 
-- Extract the media files. This will populate the existing .\assets directory with more files.  
+- Extract the media files. This will populate the existing .\assets directory with more files.
+cd c:\P-ROC\JD2-pryprocgame  
 tar xf jd2_media_a.tar.gz  
 tar xf jd2_media_b.tar.gz
 
