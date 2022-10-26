@@ -1,19 +1,21 @@
 ## JD2-pyprocgame-media
 
-JD2-pyprocgame-media is a repackaging of the [JD-pyprocgame](https://github.com/preble/JD-pyprocgame) media kit with assets organized in a content structure suitable for [JD2-pyprocgame](https://github.com/clempo2/JD2-pyprocgame).
+JD2-pyprocgame-media is a repackaging of the [JD-pyprocgame](https://github.com/preble/JD-pyprocgame) media kit with assets organized in a content structure suitable for [JD2-SkeletonGame](https://github.com/clempo2/JD2-SkeletonGame).
 
-JD2-pyprocgame is new software for the [Judge Dredd](https://www.ipdb.org/machine.cgi?id=1322) pinball machine written against [pyprocgame](http://pyprocgame.pindev.org/) running on a [P-ROC](https://www.multimorphic.com/store/circuit-boards/p-roc/) controller. It is a more polished version of [JD-pyprocgame](https://github.com/preble/JD-pyprocgame) by Gerry Stellenberg et al.
+JD2-SkeletonGame is new software for the [Judge Dredd](https://www.ipdb.org/machine.cgi?id=1322) pinball machine written against [SkeletonGame](http://skeletongame.com/) running on a [P-ROC](https://www.multimorphic.com/store/circuit-boards/p-roc/) controller.
+
+JD2-pyprocgame-media is also compatible with [JD2-pyprocgame](https://github.com/clempo2/JD2-pyprocgame), an ancestor version of JD2-SkeletonGame.
 
 ## Installation
 
-- Copy the media archives to the JD2-pyprocgame source.  
+- Copy the media archives to the JD2-SkeletonGame source.  
     ```
-    copy jd2_media_a.tar.gz C:\P-ROC\JD2-pyprocgame  
-    copy jd2_media_b.tar.gz C:\P-ROC\JD2-pyprocgame
+    copy jd2_media_a.tar.gz C:\P-ROC\JD2-SkeletonGame  
+    copy jd2_media_b.tar.gz C:\P-ROC\JD2-SkeletonGame
     ```
 - Extract the media files. This will populate the existing .\assets directory with more files.  
     ```
-    cd C:\P-ROC\JD2-pyprocgame  
+    cd C:\P-ROC\JD2-SkeletonGame  
     tar xf jd2_media_a.tar.gz  
     tar xf jd2_media_b.tar.gz
     ```
@@ -22,19 +24,20 @@ JD2-pyprocgame is new software for the [Judge Dredd](https://www.ipdb.org/machin
     del jd2_media_a.tar.gz  
     del jd2_media_b.tar.gz
     ```
+
 ## Authors
 
-JD2-pyprocgame is a collaboration of many people.
+JD2-SkeletonGame is a collaboration of many people.
 
 Game Play: Gerry Stellenberg  
-Software: Adam Preble, Clement Pellerin  
+Software: Adam Preble, Michael Ocean, Josh Kugler, Clement Pellerin  
 Sound and Music: Rob Keller, Jonathan Coultan  
 Dots: Travis Highrise  
-Special Thanks to: Steven Duchac, Rob Anthony, Michael Ocean, Josh Kugler
+Special Thanks to: Steven Duchac, Rob Anthony
 
 ## License
 
-JD2-pyprocgame-media and its use in JD2-pyprocgame is made possible by the express written permission of the original author.
+JD2-pyprocgame-media and its use in JD2-SkeletonGame and JD2-pyprocgame is made possible by the express written permission of the original author.
 
 JD2-pyprocgame-media repackaging is Copyright (c) 2022 Clement Pellerin  
 JD2-pyprocgame media kit is Copyright (c) 2011 Gerry Stellenberg
